@@ -19,6 +19,7 @@
     "number-to-bn": "*",
     "secp256k1": "^3.0.1",
     "sprintf-js": "^1.1.2",
+    "swtc-wallet": "^1.1.4",
     "underscore": "^1.8.3",
     "utf8": "^2.1.1",
     "xhr2": "*",
@@ -47,7 +48,6 @@
     "gulp-uglify": ">=1.2.0",
     "gulp-util": "*",
     "istanbul": "^0.4.4",
-    "jingtum-base-lib": "^1.0.9",
     "jshint": ">=2.5.0",
     "jszip": "^2.5.0",
     "keccak": "^1.0.2",
@@ -70,8 +70,7 @@
   ],
   "license": "LGPL-3.0",
   "main": "./index.js",
-  "name": "tum3",
-  "namespace": "Jingtum",
+  "name": "swtc-tum3",
   "repository": {
     "type": "git",
     "url": "https://github.com/MOACChain/chain3/releases"
