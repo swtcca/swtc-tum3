@@ -1,6 +1,6 @@
 {
   "author": {
-    "name": "Lospring Liu"
+    "name": "Lospringliu"
   },
   "browser": {
     "xmlhttprequest": "./lib/utils/browser-xhr.js"
@@ -19,7 +19,7 @@
     "number-to-bn": "*",
     "secp256k1": "^3.0.1",
     "sprintf-js": "^1.1.2",
-    "swtc-wallet": "^1.1.4",
+    "swtc-wallet": "^1.1.11",
     "underscore": "^1.8.3",
     "utf8": "^2.1.1",
     "xhr2": "*",
@@ -71,6 +71,7 @@
   "license": "LGPL-3.0",
   "main": "./index.js",
   "name": "swtc-tum3",
+  "namespace": "Jingtum",
   "repository": {
     "type": "git",
     "url": "https://github.com/MOACChain/chain3/releases"
@@ -81,5 +82,5 @@
     "test-coveralls": "istanbul cover _mocha -- -R spec && cat coverage/lcov.info | coveralls --verbose",
     "watch": "gulp watch"
   },
-  "version": "0.1.1"
+  "version": "0.1.2"
 }
